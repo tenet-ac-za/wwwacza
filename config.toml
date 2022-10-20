@@ -1,3 +1,41 @@
-baseURL = "https://tenet-ac-za.github.io/wwwacza"
+baseURL = "localhost:1313"
 languageCode = "en-us"
-title = "The domain for Higher Education in South Africa"
+title = "My New Hugo Site"
+
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "Apply"
+    name = "Apply"
+    url = "/apply/"
+    weight = 2
+  [[menu.main]]
+    identifier = "WHOIS"
+    name = "WHOIS"
+    url = "/whois/"
+    weight = 3
+  [[menu.main]]
+    identifier = "DNSSEC"
+    name = "DNSSEC"
+    url = "/dnssec/"
+    weight = 4
+  [[menu.main]]
+    identifier = "FAQ"
+    name = "FAQ"
+    url = "/faq/"
+    weight = 5
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    url = "/contact/"
+    weight = 6
+  [[menu.main]]
+    identifier = "TENET"
+    name = "TENET"
+    url = "/tenet/"
+    weight = 7
