@@ -48,6 +48,6 @@ title = "My New Hugo Site"
   [[menu.main]]
     identifier = "TENET"
     name = "TENET"
-    url = "/tenet/"
+    url = "https://www.tenet.ac.za"
     weight = 7
 
