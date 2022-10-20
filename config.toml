@@ -2,7 +2,6 @@ baseURL = "localhost:1313"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
-
 [menu]
   [[menu.main]]
     identifier = "home"
@@ -15,9 +14,21 @@ title = "My New Hugo Site"
     url = "/apply/"
     weight = 2
   [[menu.main]]
+    parent = "Apply"
+    identifier = "Terms and Conditions for AC.ZA Domain Registrations"
+    name = "Terms and Conditions for AC.ZA Domain Registrations"
+    url = "/termsacza/"
+    weight = 2
+ [[menu.main]]
     identifier = "WHOIS"
     name = "WHOIS"
     url = "/whois/"
+    weight = 3
+ [[menu.main]]
+    parent = "WHOIS"
+    identifier = "AC.ZA WHOIS terms and conditions "
+    name = "AC.ZA WHOIS terms and conditions"
+    url = "/termswhois/"
     weight = 3
   [[menu.main]]
     identifier = "DNSSEC"
@@ -39,3 +50,4 @@ title = "My New Hugo Site"
     name = "TENET"
     url = "/tenet/"
     weight = 7
+
