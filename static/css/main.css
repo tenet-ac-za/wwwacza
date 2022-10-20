@@ -6315,6 +6315,9 @@ body.template-logged_out #content-core .portletFooter {
     content: "3.1.2." counters(clause, ".") ". ";
     margin: 0 0.5em 0 0;
 }
+
+/* start of new hugo site */
+
 .navbar-tenet {
     background: #da2a1d;
     font-color: white
