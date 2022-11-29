@@ -17,7 +17,7 @@ title = "My New Hugo Site"
     parent = "Apply"
     identifier = "Terms and Conditions for AC.ZA Domain Registrations"
     name = "Terms and Conditions for AC.ZA Domain Registrations"
-    url = "/termsacza/"
+    url = "/applyterms/"
     weight = 2
  [[menu.main]]
     identifier = "WHOIS"

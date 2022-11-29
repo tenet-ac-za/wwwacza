@@ -1,5 +1,5 @@
 ---
-title: "Applyterms"
+title: "applyterms"
 date: 2022-10-20T11:42:54Z
 draft: false
 ---
