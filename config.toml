@@ -26,9 +26,9 @@ title = "My New Hugo Site"
     weight = 3
  [[menu.main]]
     parent = "whois"
-    identifier = "AC.ZA WHOIS terms and conditions "
+    identifier = "whoisterms"
     name = "AC.ZA WHOIS terms and conditions"
-    url = "/terms/whois/"
+    url = "/whois/terms/"
     weight = 3
   [[menu.main]]
     identifier = "DNSSEC"
